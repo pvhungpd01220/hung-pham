@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+	background-color: #f1f1f1;
+}
+header{
+	height: 80px;
+	background-color:#0000AA;
+}
+.header_in {
+	width: 1024px;
+	height: 100%;
+	margin:0 auto;
+}
+.header_left {
+	float: left;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.header_left a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+.header_in form {
+	overflow: hidden;
+	float: right;
+	width: 41%;
+	height: 100%;
+}
+.email {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	color: white;
+}
+.email p {
+	padding-bottom: 5px;
+}
+.email a{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+.email input {
+	width: 150px;
+	height: 20px;
+}
+.submit{
+	padding-top: 30px;
+}
+.submit input{
+	height: 25px;
+	background-color: #0000DD;
+	border: none;
+	color: white;
+}
+section{
+	width: 1024px;
+	margin: 0 auto;
+}
+article{
+	float: left;
+	margin-top: 30px;
+	width: 40%;
+}
+article h3{
+	font-size: 18px;
+	color: #0000AA;
+}
+aside{
+	width: 41%;
+	float:right;
+	margin-top: 20px;
+}
+aside h1{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+aside h3{
+	font-size: 18px;
+}
+aside form {
+	margin-top: 20px;
+}
+form .hd input{
+	margin-right: 10px;
+	font-size: 20px;
+	float: left;
+	width: 45%;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.ct input{
+	margin-top: 10px;
+	width: 93%;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+form h3{
+	margin-top: 10px;
+}
+select{
+	font-size: 20px;
+}
+h3>a{
+	text-decoration: none;
+	font-size: 10px;
+
+}
+.rd{
+	margin-top: 10px;
+}
+span{
+	font-size: 10px;
+}
+a{
+	text-decoration: none;
+}
+.ft input{
+	margin-top: 10px;
+	font-size: 20px;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #00FF33;
+	border: none;
+	color: white;
+}
+.clr{
+	clear: both;
+}
+footer{
+	background-color: white;
+	margin-top: 20px;
+	height: 100px;
+}
+.list_ft{
+	width: 1024px;
+	margin: 0 auto;
+	background-color: white;
+}
