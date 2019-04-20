@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register </title>
+  <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+  <form name="register">
+  	<p>Tên: <input type="text" name="name" id="name"></p>
+  	<span id="errorName"></span>
+  	<p>Ngày sinh: <input type="text" name="date" id="date"></p>
+  	<span id="errorDate"></span>
+  	<p>Giới tính: <input type="text" name="gender" id="gender"></p>
+  	<span id="errorGender"></span>
+  	<p>SĐT: <input type="text" name="numberphone" id="numberPhone"></p>
+  	<span id="errorNumberPhone"></span>
+  	<input type="button" value="Đăng Ký" name="register" onclick="checkRegister()">
+  </form>
+  <script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

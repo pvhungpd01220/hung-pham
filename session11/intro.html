@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example 1 - javascript</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+	<!--javascript co the thay doi noi dung html-->
+	<div id="changeContent">
+		Hello Javascript!
+	</div>
+	<a href="#" onclick="document.getElementById('changeContent').innerHTML = 'Hello 19PHP01!'">Change Content</a>
+	<!--Javascript co the thay doi duoc style cua html-->
+	<div id="changeStyle">
+		My Style
+	</div>
+	<a href="#" onclick="document.getElementById('changeStyle').style.color='green'">Change Color</a>
+	<a href="#" onclick="document.getElementById('changeStyle').style.fontSize='26px'">Change Style</a><br>
+	<!--Javascript co the thay doi duoc thuoc tinh cua doi tuong-->
+	<img src="images/diachi.jpg" alt="image" id="changeStyle">
+	<a href="#" onclick="document.getElementById('changeStyle').src='images/yahoo.jpg'">Change Style</a><br>
+	<!--Javascript co the an duoc mot doi tuong-->
+	<img src="images/diachi.jpg" alt="image" id="hideImage">
+	<a href="#" onclick="document.getElementById('hideImage').style.display='none'">Hide Images</a><br>
+	<!--Javascript co the hien thi duoc mot doi tuong-->
+	<a href="#" onclick="document.getElementById('hideImage').style.display='block'">Show Images</a><br>
+	<script type="text/javascript" src="js/intro.js"></script>
+</body>
+</html>

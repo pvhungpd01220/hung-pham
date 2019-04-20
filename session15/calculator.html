@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+<body>
+	 <div id='calc-contain'>
+  
+          <form name="calculator">
+            <div id="result">0</div>
+            <input type="button" value=" AC " onclick="delValue()" />
+            <input type="button" value=" BACK " onclick="backValue()" />
+            <br>
+            
+            <input type="button" value=" 7 " onclick="addValue('7')"/>
+            <input type="button" value=" 8 " onclick="addValue('8')"/>
+            <input type="button" value=" 9 " onclick="addValue('9')"/>
+            <input type="button" value=" + " onclick="addValue('+')" />
+            <br/>
+            
+            <input type="button" value=" 4 " onclick="addValue('4')"/>
+            <input type="button" value=" 5 " onclick="addValue('5')"/>
+            <input type="button" value=" 6 " onclick="addValue('6')"/>
+            <input type="button" value=" - " onclick="addValue('-')"/>
+            </br>
+          
+            <input type="button" value=" 1 " onclick="addValue('1')" />
+            <input type="button" value=" 2 " onclick="addValue('2')" />
+            <input type="button" value=" 3 " onclick="addValue('3')" />
+            <input type="button" value=" x " onclick="addValue('*')" />
+            </br>
+        
+            <input type="button" value=" 0 " onclick="addValue('0')" />
+            <input type="button" value=" . " onclick="addValue('.')" />
+            <input type="button" value=" = " onclick="calValue()" />
+            <input type="button" value=" / " onclick="addValue('/')" />
+            </br>
+  			<p>
+  				Number 1:
+  				<input type="text" name="number1" id="number1" onkeyup="sumNumber()">
+  			</p>
+    		<p>
+  				Number 2:
+  				<input type="text" name="number2" id="number2" onchange="sumNumber()">
+  			</p>
+  			<p id="sum"></p>
+          </form>
+        </div>
+	<script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>
