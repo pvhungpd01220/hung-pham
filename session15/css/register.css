@@ -28,5 +28,5 @@ button {
 }
 #errorName, #errorDate, #errorGender, #errorNumberPhone {
 	color: red;
-	margin-bottom: 10px;
+	max-resolution: res;-bottom: 10px;
 }

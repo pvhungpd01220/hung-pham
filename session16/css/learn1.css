@@ -1,0 +1,13 @@
+#myBox {
+	background-color: #ada;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	font-size: 13px;
+}
+#myBox2 {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
