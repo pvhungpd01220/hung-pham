@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form </title>
+</head>
+<body>
+<header>
+	<form>
+	<p>Name: <input id="name" type="text" name="name"><span id="errorName"></span></p>
+	<p>Address: <input id="address" type="text" name="address"><span id="errorAddress"></span></p>
+	<p>Phone number: <input id="phone" type="text" name="phone"><span id="errorPhone"></span></p>
+	<p>First day:<input id="first" type="date" name="first"><span id="errorFirst"></span></p>
+	<p>Last day: <input id="last" type="date" name="last"><span id="errorLast"></span></p>
+	<p>First number: <input id="first_Number" type="text" name="first_Number"><span id="errorNumber1"></span></p>
+	<p>Last number: <input id="last_Number" type="text" name="last_Number"><span id="errorNumber2"></span></p>
+	<p>Note: <textarea></textarea>
+	<p><input class="press" type="button" name="submit" value="Register" onclick="checkForm()"></p>
+	<p><input class="press1" type="button" name="print" value="print" onclick="printPersonalInformation()"></p>
+	<p><input class="press2" type="button" name="calculate" value="calculate" onclick="calculateEle()"></p>
+	<br/>
+	<p id="success"></p>
+</form>
+</header>
+<div id="display"> 
+	<div id="display1"></div>
+	<div id="display2"></div>
+	<div id="display3"></div>
+	<div id="display4"></div>
+	<div id="display5"></div>
+	<div id="display6"></div>
+	<div id="display7"></div>
+	<div id="display8"></div>
+	<div id="display9"></div>
+</div>
+<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+<script type="text/javascript" src="js/form_js.js"></script>
+</body>
+</html>

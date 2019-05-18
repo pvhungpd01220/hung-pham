@@ -6,3 +6,19 @@ img {
 #go2 {
 	margin-left: 1000px;
 }
+#mybox {
+	height: 10px;
+	top:90px;
+	background-color:red;
+	position: absolute;
+}
+#mybox2 {
+	width: 10px;
+	background-color:red;
+	position: absolute;
+}
+#mybox3 {
+	height: 10px;
+	background-color:red;
+	position: absolute;
+}
